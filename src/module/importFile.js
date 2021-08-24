@@ -6,7 +6,7 @@ import gif from "../static/pic/4.gif";
 import audio1 from "../static/audio/sound1.mp3";
 import audio2 from "../static/audio/sound2.mp3";
 import audio3 from "../static/audio/sound3.mp3";
-//Видео удалил так как ограничение гита по размерам файлов
+//Видео удалил, так как ограничение гита по размеру файлов
 //import video1 from "../static/video/ocean.mp4";
 //import video2 from "../static/video/rick.mp4";
 
