@@ -24,6 +24,7 @@ module.exports = {
 								webp: true,
 								disableOnDevelopment: true,
 							},
+							outputPath: "pic",
 							name: "[name].[ext]",
 						},
 					},
@@ -33,7 +34,7 @@ module.exports = {
 				loader:"file-loader",
 				exclude: /node_modules/,
 				options:{
-					outputPath: "gif",
+					outputPath: "pic/gif",
 					name: "[name].[ext]",
 				}
 			},
