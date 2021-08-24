@@ -10,5 +10,5 @@ import audio3 from "../static/audio/sound3.mp3";
 //import video1 from "../static/video/ocean.mp4";
 //import video2 from "../static/video/rick.mp4";
 
-export const arrya = [kriv1, audio1, gif, kriv2, audio2, kriv3,
+export const fileArray = [kriv1, audio1, gif, kriv2, audio2, kriv3,
 	audio3, kriv4];
