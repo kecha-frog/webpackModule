@@ -29,15 +29,15 @@ module.exports = {
 					},
 				],
 			},
-			{test: /\.gif$/i, //для музыки
+			{test: /\.gif$/i,
 				loader:"file-loader",
 				exclude: /node_modules/,
 				options:{
-					outputPath: "pic",
+					outputPath: "gif",
 					name: "[name].[ext]",
 				}
 			},
-			{test: /\.mp3$/i, //для музыки
+			{test: /\.mp3$/i,
 				loader:"file-loader",
 				exclude: /node_modules/,
 				options:{
@@ -67,14 +67,14 @@ module.exports = {
 		new HtmlWebpackPlugin({template: resolve(__dirname, "./public/index.html")}),
 		new MiniCssExtractPlugin({filename: "[name].[contenthash].css"}),
 		new BundleAnalyzerPlugin({}),
-		new CleanWebpackPlugin //очищает dist
+		new CleanWebpackPlugin
 	],
 	devServer: {
 		port: 9000,
-		hot: true, //горячая перезагрузка браузера
+		hot: true,
 	},
 	optimization: {
-		minimizer: [new UglifyJsPlugin({ // минимизирует код
+		minimizer: [new UglifyJsPlugin({
 			test: /\.js(\?.*)?$/i,
 		}),],
 	}
